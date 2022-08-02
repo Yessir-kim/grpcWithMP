@@ -2,15 +2,11 @@
 
 mp2bs with grpc
 
-grpc(server peer)    grpc(client peer)
-   |                     |
-   |                     |
-   |                     |
-   |                     |
-mpserver <----------> mpclient
+mpserver with grcp <----------> mpclient with grpc
 
+- we assume that grpc server is peer for each mp2bs
 
-Build
+- Build
 
 . go build mpserver.go 
 

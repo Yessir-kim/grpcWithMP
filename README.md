@@ -2,7 +2,7 @@
 
 mp2bs with grpc
 
-mpserver with grcp <----------> mpclient with grpc
+mpserver with grpc <----------> mpclient with grpc
 
 - we assume that grpc server is peer for each mp2bs
 
